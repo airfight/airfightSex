@@ -115,7 +115,7 @@
         
         //修改文字的偏移量
         [btn setTitleEdgeInsets:UIEdgeInsetsMake(30, 0, 0, 0)];
-        
+  
         //修改文字大小
         btn.titleLabel.font = [UIFont systemFontOfSize:15];
         
