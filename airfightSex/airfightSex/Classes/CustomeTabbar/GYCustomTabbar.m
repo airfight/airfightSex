@@ -29,10 +29,14 @@
 
 @implementation GYCustomTabbar
 
-- (instancetype)initWith:(NSArray *)viewController {
+- (instancetype)initWith:(NSArray *)viewController andImages:(NSArray *)imagesArr andSelectArr:(NSArray *)selectImagesArr andTitle:(NSArray *)titlesArr {
     
     if (self = [super init]) {
+        
         _vControllers = viewController;
+        _imagesArr = imagesArr;
+        _titlesArr = titlesArr;
+        _selectImagesArr = selectImagesArr;
         
         //2.装在视图控制器
         [self instanceVC];
@@ -52,10 +56,10 @@
     self.tabBar.hidden = YES;
     
     //2.装在视图控制器
-    [self instanceVC];
+    //    [self instanceVC];
     
     //3.创建自定义的tabBarView
-    [self instanceTabBarView];
+    //    [self instanceTabBarView];
     
     
 }
@@ -88,67 +92,55 @@
     //防止切图缝隙问题
     _tabBarView.backgroundColor = COLORRGB(33, 40, 43);
     NSLog(@"%f",width);
-    //默认图片
-    NSArray *images = @[@"tabbar_1",@"tabbar_2",@"tabbar_3",@"tabbar_4"];
-    
-    //选中后的图片
-    NSArray *selectImages = @[@"tabbar_1_h",@"tabbar_2_h",@"tabbar_3_h",@"tabbar_4_h"];
-    
-    //标题
-    NSArray *titles = @[@"微信",
-                        @"发现",
-                        @"好友",
-                        @"我的"];
-    
-    
-for (int i = 0; i < self.vControllers.count; i++) {
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    btn.frame = CGRectMake(width * i, 0, width, _tabBarView.bounds.size.height);
-    
-    //普通状态下的图片
-    [btn setBackgroundImage:[UIImage imageNamed:images[i]] forState:UIControlStateNormal];
-    
-    //选中状态下的图片
-    [btn setBackgroundImage:[UIImage imageNamed:selectImages[i]] forState:UIControlStateDisabled];
-    
-    //设置文字
-    [btn setTitle:titles[i] forState:UIControlStateNormal];
-    
-    //普通状态下的文字颜色
-    [btn setTitleColor:COLORRGB(147, 147, 147) forState:UIControlStateNormal];
-    
-    //选中状态下的颜色
-    [btn setTitleColor:COLORRGB(63, 170, 252) forState:UIControlStateDisabled];
-    
-    //修改文字的偏移量
-    [btn setTitleEdgeInsets:UIEdgeInsetsMake(30, 0, 0, 0)];
-    
-    //修改文字大小
-    btn.titleLabel.font = [UIFont systemFontOfSize:15];
-    
-    //添加tag
-    btn.tag = kTag + i;
-    
-    // 添加点击事件
-    [btn addTarget:self action:@selector(selectViewController:) forControlEvents:UIControlEventTouchUpInside];
-    
-    //将按钮添加到自定义的view上
-    [_tabBarView addSubview:btn];
-    
-    //将第一个按钮选中
-    if (i == 0) {
+  
+    for (int i = 0; i < self.vControllers.count; i++) {
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        btn.enabled = NO;
-        _oldBtn = btn;
+        btn.frame = CGRectMake(width * i, 0, width, _tabBarView.bounds.size.height);
+        
+        //普通状态下的图片
+        [btn setBackgroundImage:[UIImage imageNamed:_imagesArr[i]] forState:UIControlStateNormal];
+        
+        //选中状态下的图片
+        [btn setBackgroundImage:[UIImage imageNamed:_selectImagesArr[i]] forState:UIControlStateDisabled];
+        
+        //设置文字
+        [btn setTitle:_titlesArr[i] forState:UIControlStateNormal];
+        
+        //普通状态下的文字颜色
+        [btn setTitleColor:COLORRGB(147, 147, 147) forState:UIControlStateNormal];
+        
+        //选中状态下的颜色
+        [btn setTitleColor:COLORRGB(63, 170, 252) forState:UIControlStateDisabled];
+        
+        //修改文字的偏移量
+        [btn setTitleEdgeInsets:UIEdgeInsetsMake(30, 0, 0, 0)];
+        
+        //修改文字大小
+        btn.titleLabel.font = [UIFont systemFontOfSize:15];
+        
+        //添加tag
+        btn.tag = kTag + i;
+        
+        // 添加点击事件
+        [btn addTarget:self action:@selector(selectViewController:) forControlEvents:UIControlEventTouchUpInside];
+        
+        //将按钮添加到自定义的view上
+        [_tabBarView addSubview:btn];
+        
+        //将第一个按钮选中
+        if (i == 0) {
+            
+            btn.enabled = NO;
+            _oldBtn = btn;
+        }
+        
     }
     
-}
-
-
-[self.view addSubview:_tabBarView];
-
-
+    
+    [self.view addSubview:_tabBarView];
+    
+    
 }
 /**
  *  按钮点击事件

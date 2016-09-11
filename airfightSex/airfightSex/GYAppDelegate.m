@@ -8,8 +8,10 @@
 
 #import "GYAppDelegate.h"
 #import "GYCustomTabbar.h"
+#import "GYTabBar.h"
+#import "ViewController.h"
 
-@interface GYAppDelegate ()
+@interface GYAppDelegate () <GYTabBarDelegate>
 
 @end
 
@@ -23,12 +25,52 @@
     
     [self.window makeKeyAndVisible];
     
-    GYCustomTabbar *tabbar = [[GYCustomTabbar alloc] initWith:@[@"ViewController",@"ViewController",@"ViewController",@"ViewController"]];
+#if 0
+    //默认图片
+    NSArray *images = @[@"tabbar_1",@"tabbar_2",@"tabbar_3",@"tabbar_4"];
+    
+    // 选中后的图片
+    NSArray *selectImages = @[@"tabbar_1_h",@"tabbar_2_h",@"tabbar_3_h",@"tabbar_4_h"];
+    
+    //标题
+    NSArray *titles = @[@"微信",
+                        @"发现",
+                        @"好友",
+                        @"我的"];
+    
+    GYCustomTabbar *tabbar = [[GYCustomTabbar alloc] initWith:@[@"ViewController",@"ViewController",@"ViewController",@"ViewController"] andImages:images andSelectArr:selectImages andTitle:titles];
     
     self.window.rootViewController = tabbar;
+#endif
     
+#if 1
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[[[UIViewController alloc] init], [[UIViewController alloc] init], [[UIViewController alloc] init], [[UIViewController alloc] init]];
     
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
+    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    
+    GYTabBar *tabBar = [[GYTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
+    
+    tabBar.tabBarItemAttributes = @[@{kGYTabBarButtonTitle: @"首页", kGYTabBarButtonNomalImage: @"home_normal", kGYTabBarButtonSelectedImage: @"home_highlight",kGYTabBarButtonType: @(GYTabBarButtonNomal)},
+                                    @{kGYTabBarButtonTitle : @"同城", kGYTabBarButtonNomalImage : @"mycity_normal", kGYTabBarButtonSelectedImage : @"mycity_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                    @{kGYTabBarButtonTitle : @"发布", kGYTabBarButtonNomalImage : @"post_normal", kGYTabBarButtonSelectedImage : @"post_normal", kGYTabBarButtonType : @(GYTabBarButtonRise)},
+                                    @{kGYTabBarButtonTitle : @"消息", kGYTabBarButtonNomalImage : @"message_normal", kGYTabBarButtonSelectedImage : @"message_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                    @{kGYTabBarButtonTitle : @"我的", kGYTabBarButtonNomalImage : @"account_normal", kGYTabBarButtonSelectedImage : @"account_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)}];
+    
+    tabBar.delegate = self;
+    [tabBarController.tabBar addSubview:tabBar];
+    
+    self.window.rootViewController = tabBarController;
+#endif
     return YES;
+}
+
+
+- (void)tabBarDidSelectedRiseButton {
+    
+    NSLog(@"点击了突出的按钮");
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

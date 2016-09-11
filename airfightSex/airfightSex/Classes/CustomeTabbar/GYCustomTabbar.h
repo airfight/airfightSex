@@ -13,6 +13,25 @@
 
 @property (nonatomic,strong) NSArray *vControllers;
 
-- (instancetype)initWith:(NSArray* )viewController;
+/**
+ *  tabbar数组
+ */
+@property (nonatomic,strong) NSArray *imagesArr;
+
+/**
+ *  tabbar标题
+ */
+@property (nonatomic,strong) NSArray *titlesArr;
+
+@property (nonatomic,strong) NSArray *selectImagesArr;
+
+/**
+ *  创建自定义tabbar
+ *
+ *  @param viewController VC的字符串名称数组
+ *
+ *  @return 返回TabbarconTroller
+ */
+- (instancetype)initWith:(NSArray* )viewController andImages: (NSArray *)imagesArr andSelectArr:(NSArray *)selectImagesArr andTitle: (NSArray *)titlesArr;
 
 @end
