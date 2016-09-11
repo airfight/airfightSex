@@ -7,6 +7,7 @@
 //
 
 #import "GYAppDelegate.h"
+#import "GYCustomTabbar.h"
 
 @interface GYAppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
+    GYCustomTabbar *tabbar = [[GYCustomTabbar alloc] initWith:@[@"ViewController",@"ViewController",@"ViewController",@"ViewController"]];
+    
+    self.window.rootViewController = tabbar;
+    
+    
     return YES;
 }
 

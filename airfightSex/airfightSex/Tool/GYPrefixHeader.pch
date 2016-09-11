@@ -1,0 +1,15 @@
+//
+//  GYPrefixHeader.pch
+//  airfightSex
+//
+//  Created by giant on 16/9/11.
+//  Copyright © 2016年 giant. All rights reserved.
+//
+
+#ifndef GYPrefixHeader_pch
+#define GYPrefixHeader_pch
+
+
+#import "GYMacroHeader.h"
+
+#endif /* GYPrefixHeader_pch */

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B08E41951D85437C00F510BC /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418D1D85437C00F510BC /* tabbar_1@2x.png */; };
+		B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */; };
+		B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418F1D85437C00F510BC /* tabbar_2@2x.png */; };
+		B08E41981D85437C00F510BC /* tabbar_2_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41901D85437C00F510BC /* tabbar_2_h@2x.png */; };
+		B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41911D85437C00F510BC /* tabbar_3@2x.png */; };
+		B08E419A1D85437C00F510BC /* tabbar_3_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */; };
+		B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41931D85437C00F510BC /* tabbar_4@2x.png */; };
+		B08E419C1D85437C00F510BC /* tabbar_4_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */; };
 		B0B51FE81D8528B400709A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FE71D8528B400709A33 /* main.m */; };
 		B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */; };
 		B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FED1D8528B400709A33 /* ViewController.m */; };
@@ -15,6 +23,7 @@
 		B0B51FF61D8528B400709A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */; };
 		B0B520011D8528B500709A33 /* airfightSexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520001D8528B500709A33 /* airfightSexTests.m */; };
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
+		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B08E418D1D85437C00F510BC /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
+		B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1_h@2x.png"; sourceTree = "<group>"; };
+		B08E418F1D85437C00F510BC /* tabbar_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2@2x.png"; sourceTree = "<group>"; };
+		B08E41901D85437C00F510BC /* tabbar_2_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2_h@2x.png"; sourceTree = "<group>"; };
+		B08E41911D85437C00F510BC /* tabbar_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3@2x.png"; sourceTree = "<group>"; };
+		B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3_h@2x.png"; sourceTree = "<group>"; };
+		B08E41931D85437C00F510BC /* tabbar_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4@2x.png"; sourceTree = "<group>"; };
+		B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4_h@2x.png"; sourceTree = "<group>"; };
 		B0B51FE31D8528B400709A33 /* airfightSex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airfightSex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B51FE71D8528B400709A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0B51FE91D8528B400709A33 /* GYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYAppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,10 @@
 		B0B520071D8528B500709A33 /* airfightSexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airfightSexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B5200B1D8528B500709A33 /* airfightSexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airfightSexUITests.m; sourceTree = "<group>"; };
 		B0B5200D1D8528B500709A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B520201D852FA900709A33 /* GYMacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYMacroHeader.h; sourceTree = "<group>"; };
+		B0B520221D8530A800709A33 /* GYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPrefixHeader.pch; sourceTree = "<group>"; };
+		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
+		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B08E418C1D85437C00F510BC /* CustomTabBarImages1 */ = {
+			isa = PBXGroup;
+			children = (
+				B08E418D1D85437C00F510BC /* tabbar_1@2x.png */,
+				B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */,
+				B08E418F1D85437C00F510BC /* tabbar_2@2x.png */,
+				B08E41901D85437C00F510BC /* tabbar_2_h@2x.png */,
+				B08E41911D85437C00F510BC /* tabbar_3@2x.png */,
+				B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */,
+				B08E41931D85437C00F510BC /* tabbar_4@2x.png */,
+				B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */,
+			);
+			path = CustomTabBarImages1;
+			sourceTree = "<group>";
+		};
 		B0B51FDA1D8528B400709A33 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +137,9 @@
 		B0B51FE51D8528B400709A33 /* airfightSex */ = {
 			isa = PBXGroup;
 			children = (
+				B08E418C1D85437C00F510BC /* CustomTabBarImages1 */,
+				B0B5201F1D852F8A00709A33 /* Tool */,
+				B0B5201B1D852C8B00709A33 /* Classes */,
 				B0B51FE91D8528B400709A33 /* GYAppDelegate.h */,
 				B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */,
 				B0B51FEC1D8528B400709A33 /* ViewController.h */,
@@ -138,6 +177,40 @@
 				B0B5200D1D8528B500709A33 /* Info.plist */,
 			);
 			path = airfightSexUITests;
+			sourceTree = "<group>";
+		};
+		B0B5201B1D852C8B00709A33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0B520241D8531EA00709A33 /* CustomeTabbar */,
+				B0B520231D8531D300709A33 /* MainVc */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0B5201F1D852F8A00709A33 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B0B520201D852FA900709A33 /* GYMacroHeader.h */,
+				B0B520221D8530A800709A33 /* GYPrefixHeader.pch */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B0B520231D8531D300709A33 /* MainVc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainVc;
+			sourceTree = "<group>";
+		};
+		B0B520241D8531EA00709A33 /* CustomeTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B0B520251D8532C800709A33 /* GYCustomTabbar.h */,
+				B0B520261D8532C800709A33 /* GYCustomTabbar.m */,
+			);
+			path = CustomeTabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +280,7 @@
 				TargetAttributes = {
 					B0B51FE21D8528B400709A33 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S2B8WV5J2A;
 					};
 					B0B51FFB1D8528B500709A33 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,8 +317,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */,
+				B08E41951D85437C00F510BC /* tabbar_1@2x.png in Resources */,
+				B08E419A1D85437C00F510BC /* tabbar_3_h@2x.png in Resources */,
+				B08E419C1D85437C00F510BC /* tabbar_4_h@2x.png in Resources */,
+				B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */,
+				B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */,
 				B0B51FF61D8528B400709A33 /* LaunchScreen.storyboard in Resources */,
+				B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */,
 				B0B51FF31D8528B400709A33 /* Assets.xcassets in Resources */,
+				B08E41981D85437C00F510BC /* tabbar_2_h@2x.png in Resources */,
 				B0B51FF11D8528B400709A33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +354,7 @@
 			files = (
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
+				B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */,
 				B0B51FE81D8528B400709A33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +428,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -390,6 +474,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -415,7 +500,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/airfightSex/Tool/GYPrefixHeader.pch";
 				INFOPLIST_FILE = airfightSex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gy.airfightSex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +514,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/airfightSex/Tool/GYPrefixHeader.pch";
 				INFOPLIST_FILE = airfightSex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gy.airfightSex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +589,7 @@
 				B0B520121D8528B500709A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0B520131D8528B500709A33 /* Build configuration list for PBXNativeTarget "airfightSexTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +598,7 @@
 				B0B520151D8528B500709A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0B520161D8528B500709A33 /* Build configuration list for PBXNativeTarget "airfightSexUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +607,7 @@
 				B0B520181D8528B500709A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
