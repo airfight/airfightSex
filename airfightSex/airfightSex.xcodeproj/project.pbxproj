@@ -38,6 +38,11 @@
 		B0E8B54F1D8593B900622B1E /* mycity_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B54E1D8593B900622B1E /* mycity_normal@2x.png */; };
 		B0E8B5511D8593D000622B1E /* post_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B5501D8593D000622B1E /* post_normal@2x.png */; };
 		B0E8B5531D8593E500622B1E /* tapbar_top_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B5521D8593E500622B1E /* tapbar_top_line@2x.png */; };
+		B78CB7A11D8796E8009861DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A01D8796E8009861DC /* libz.tbd */; };
+		B78CB7A31D8796F9009861DC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */; };
+		B78CB7A61D87993E009861DC /* d.js in Resources */ = {isa = PBXBuildFile; fileRef = B78CB7A51D87993E009861DC /* d.js */; };
+		B78CB7AA1D87A063009861DC /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78CB7A81D87A063009861DC /* JPViewController.m */; };
+		B78CB7AB1D87A063009861DC /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = B78CB7A91D87A063009861DC /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +110,13 @@
 		B0E8B54E1D8593B900622B1E /* mycity_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycity_normal@2x.png"; sourceTree = "<group>"; };
 		B0E8B5501D8593D000622B1E /* post_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_normal@2x.png"; sourceTree = "<group>"; };
 		B0E8B5521D8593E500622B1E /* tapbar_top_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapbar_top_line@2x.png"; sourceTree = "<group>"; };
+		B78CB7A01D8796E8009861DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B78CB7A41D879758009861DC /* GYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYConst.h; sourceTree = "<group>"; };
+		B78CB7A51D87993E009861DC /* d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d.js; sourceTree = "<group>"; };
+		B78CB7A71D87A063009861DC /* JPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		B78CB7A81D87A063009861DC /* JPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		B78CB7A91D87A063009861DC /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78CB7A31D8796F9009861DC /* JavaScriptCore.framework in Frameworks */,
+				B78CB7A11D8796E8009861DC /* libz.tbd in Frameworks */,
 				52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +150,8 @@
 		993A3C68C29E4A54F849A34B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */,
+				B78CB7A01D8796E8009861DC /* libz.tbd */,
 				210101BD2987841305658688 /* libPods-airfightSex.a */,
 			);
 			name = Frameworks;
@@ -181,6 +197,7 @@
 		B0B51FE51D8528B400709A33 /* airfightSex */ = {
 			isa = PBXGroup;
 			children = (
+				B78CB79D1D879697009861DC /* ThirdLib */,
 				B08E418C1D85437C00F510BC /* CustomTabBarImages1 */,
 				B0B5201F1D852F8A00709A33 /* Tool */,
 				B0B5201B1D852C8B00709A33 /* Classes */,
@@ -188,6 +205,9 @@
 				B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */,
 				B0B51FEC1D8528B400709A33 /* ViewController.h */,
 				B0B51FED1D8528B400709A33 /* ViewController.m */,
+				B78CB7A71D87A063009861DC /* JPViewController.h */,
+				B78CB7A81D87A063009861DC /* JPViewController.m */,
+				B78CB7A91D87A063009861DC /* main.js */,
 				B0B51FEF1D8528B400709A33 /* Main.storyboard */,
 				B0B51FF21D8528B400709A33 /* Assets.xcassets */,
 				B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */,
@@ -239,6 +259,7 @@
 				B0E8B5381D85845E00622B1E /* GYTabBar */,
 				B0B520201D852FA900709A33 /* GYMacroHeader.h */,
 				B0B520221D8530A800709A33 /* GYPrefixHeader.pch */,
+				B78CB7A41D879758009861DC /* GYConst.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -287,6 +308,14 @@
 				B0E8B54E1D8593B900622B1E /* mycity_normal@2x.png */,
 			);
 			path = GYTabBarImage;
+			sourceTree = "<group>";
+		};
+		B78CB79D1D879697009861DC /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				B78CB7A51D87993E009861DC /* d.js */,
+			);
+			path = ThirdLib;
 			sourceTree = "<group>";
 		};
 		C0514D42CD0B7AC484353373 /* Pods */ = {
@@ -368,7 +397,7 @@
 				TargetAttributes = {
 					B0B51FE21D8528B400709A33 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S2B8WV5J2A;
+						DevelopmentTeam = UZZG6NM74T;
 					};
 					B0B51FFB1D8528B500709A33 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -417,7 +446,9 @@
 				B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */,
 				B0B51FF61D8528B400709A33 /* LaunchScreen.storyboard in Resources */,
 				B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */,
+				B78CB7AB1D87A063009861DC /* main.js in Resources */,
 				B0E8B5431D85936800622B1E /* account_normal@2x.png in Resources */,
+				B78CB7A61D87993E009861DC /* d.js in Resources */,
 				B0E8B54B1D85939800622B1E /* message_normal@2x.png in Resources */,
 				B0E8B5451D85937500622B1E /* home_highlight@2x.png in Resources */,
 				B0E8B54D1D8593B300622B1E /* mycity_highlight@2x.png in Resources */,
@@ -504,6 +535,7 @@
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
 				B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */,
 				B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */,
+				B78CB7AA1D87A063009861DC /* JPViewController.m in Sources */,
 				B0B51FE81D8528B400709A33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,6 +683,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/airfightSex/ThirdLib",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/airfightSex/Tool/GYPrefixHeader.pch";
 				INFOPLIST_FILE = airfightSex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -666,6 +702,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/airfightSex/ThirdLib",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/airfightSex/Tool/GYPrefixHeader.pch";
 				INFOPLIST_FILE = airfightSex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

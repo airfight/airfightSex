@@ -9,7 +9,9 @@
 #ifndef GYPrefixHeader_pch
 #define GYPrefixHeader_pch
 
+#import "JPEngine.h"
 
 #import "GYMacroHeader.h"
+#import "GYConst.h"
 
 #endif /* GYPrefixHeader_pch */
