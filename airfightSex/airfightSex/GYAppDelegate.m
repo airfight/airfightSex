@@ -10,7 +10,6 @@
 #import "GYCustomTabbar.h"
 #import "GYTabBar.h"
 #import "ViewController.h"
-#import "JPViewController.h"
 
 
 @interface GYAppDelegate () <GYTabBarDelegate>
@@ -22,26 +21,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //    [JSPatch startWithAppKey:kJSPatchAppKey];
+    [JSPatch startWithAppKey:kJSPatchAppKey];
+    //
+    //    [JSPatch testScriptInBundle];
+    [JSPatch sync];
+    
+    //    [JPEngine startEngine];
+    //    [JPEngine setVersion:2];
+    //
+    //    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"main" ofType:@"js"];
+    //    NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
     //    
-    //    [JSPatch sync];
+    //    [JPEngine evaluateScript:script];
     
-        [JPEngine startEngine];
-    
-        NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"main" ofType:@"js"];
-        NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
-    
-        [JPEngine evaluateScript:script];
-
-//    [JSPatch setupLogger:^(NSString *msg) {
-//        NSLog(@"%@", msg);
-//
-//    }];
-//    
-//    [JSPatch testScriptInBundle];
-    
-//    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"demo.js" ofType:nil];
-
+    //    [JSPatch setupLogger:^(NSString *msg) {
+    //        NSLog(@"%@", msg);
+    //
+    //    }];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -68,7 +64,7 @@
     
 #if 1
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[[[JPViewController alloc] init], [[UIViewController alloc] init], [[ViewController alloc] init], [[UIViewController alloc] init]];
+    tabBarController.viewControllers = @[[[ViewController alloc] init], [[UIViewController alloc] init], [[ViewController alloc] init], [[UIViewController alloc] init]];
     
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];

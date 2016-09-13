@@ -17,8 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self initColor];
+    
+
+}
+
+- (void) initColor {
     self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"shuai");
+
 }
 
 - (void)didReceiveMemoryWarning {

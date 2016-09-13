@@ -3,6 +3,6 @@ platform :ios, "8.0"
 target 'airfightSex' do
     
     pod 'AFNetworking'
-    pod  'JSPatch'
+    #    pod  'JSPatch'
     
 end
