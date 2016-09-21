@@ -15,7 +15,7 @@ class GYBaseNavViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.navigationBar.barTintColor = GYSwiftConst.rgba(r: 17, g: 49, b: 0, a: 1)
         
         // Do any additional setup after loading the view.
     }

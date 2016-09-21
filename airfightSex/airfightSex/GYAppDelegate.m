@@ -80,13 +80,13 @@
     
     GYTabBar *tabBar = [[GYTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
     
-    tabBar.tabBarItemAttributes = @[@{kGYTabBarButtonTitle: @"藏书馆", kGYTabBarButtonNomalImage: @"home_normal", kGYTabBarButtonSelectedImage: @"home_highlight",kGYTabBarButtonType: @(GYTabBarButtonNomal)},
-                                       @{kGYTabBarButtonTitle : @"借书", kGYTabBarButtonNomalImage : @"message_normal", kGYTabBarButtonSelectedImage : @"message_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+    tabBar.tabBarItemAttributes = @[@{kGYTabBarButtonTitle: @"藏书馆", kGYTabBarButtonNomalImage: @"BottomTabBar_Library", kGYTabBarButtonSelectedImage: @"BottomTabBar_LibrarySelected",kGYTabBarButtonType: @(GYTabBarButtonNomal)},
+                                       @{kGYTabBarButtonTitle : @"借书", kGYTabBarButtonNomalImage : @"BottomTabBar_BorrowBook", kGYTabBarButtonSelectedImage : @"BottomTabBar_BorrowBookSelected", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
                                   
                                     @{kGYTabBarButtonTitle : @"发布", kGYTabBarButtonNomalImage : @"post_normal", kGYTabBarButtonSelectedImage : @"post_normal", kGYTabBarButtonType : @(GYTabBarButtonRise)},
-                                      @{kGYTabBarButtonTitle : @"发现", kGYTabBarButtonNomalImage : @"mycity_normal", kGYTabBarButtonSelectedImage : @"mycity_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                      @{kGYTabBarButtonTitle : @"发现", kGYTabBarButtonNomalImage : @"BottomTabBar_Discover", kGYTabBarButtonSelectedImage : @"BottomTabBar_DiscoverSelected", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
                                  
-                                    @{kGYTabBarButtonTitle : @"我的", kGYTabBarButtonNomalImage : @"account_normal", kGYTabBarButtonSelectedImage : @"account_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)}];
+                                    @{kGYTabBarButtonTitle : @"我的", kGYTabBarButtonNomalImage : @"BottomTabBar_Mine", kGYTabBarButtonSelectedImage : @"BottomTabBar_MineSelected", kGYTabBarButtonType : @(GYTabBarButtonNomal)}];
     
     tabBar.delegate = self;
     [tabBarController.tabBar addSubview:tabBar];
