@@ -30,7 +30,7 @@
     self.backgroundColor = [UIColor whiteColor];
     
     UIImageView *topLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, -5, SCREEN_W, 5)];
-    topLine.image = [UIImage imageNamed:@"tapbar_top_line"];
+    topLine.image = [UIImage imageNamed:@"tapbar_line"];
     
     [self addSubview:topLine];
 }

@@ -12,6 +12,8 @@
 //#import "JPEngine.h"
 #import <JSPatch/JSPatch.h>
 
+#import "airfightSex-Swift.h"
+
 #import "GYMacroHeader.h"
 #import "GYConst.h"
 

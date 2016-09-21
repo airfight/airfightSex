@@ -17,13 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    GYBaseVC *vc = [[GYBaseVC alloc] init];
+    
+    NSLog(@"%@",vc);
+    
     [self initColor];
     
 
 }
 
 - (void) initColor {
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor yellowColor];
 
 }
 

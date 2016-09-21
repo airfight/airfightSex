@@ -71,10 +71,12 @@
     
     GYTabBar *tabBar = [[GYTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
     
-    tabBar.tabBarItemAttributes = @[@{kGYTabBarButtonTitle: @"首页", kGYTabBarButtonNomalImage: @"home_normal", kGYTabBarButtonSelectedImage: @"home_highlight",kGYTabBarButtonType: @(GYTabBarButtonNomal)},
-                                    @{kGYTabBarButtonTitle : @"同城", kGYTabBarButtonNomalImage : @"mycity_normal", kGYTabBarButtonSelectedImage : @"mycity_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+    tabBar.tabBarItemAttributes = @[@{kGYTabBarButtonTitle: @"藏书馆", kGYTabBarButtonNomalImage: @"home_normal", kGYTabBarButtonSelectedImage: @"home_highlight",kGYTabBarButtonType: @(GYTabBarButtonNomal)},
+                                       @{kGYTabBarButtonTitle : @"借书", kGYTabBarButtonNomalImage : @"message_normal", kGYTabBarButtonSelectedImage : @"message_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                  
                                     @{kGYTabBarButtonTitle : @"发布", kGYTabBarButtonNomalImage : @"post_normal", kGYTabBarButtonSelectedImage : @"post_normal", kGYTabBarButtonType : @(GYTabBarButtonRise)},
-                                    @{kGYTabBarButtonTitle : @"消息", kGYTabBarButtonNomalImage : @"message_normal", kGYTabBarButtonSelectedImage : @"message_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                      @{kGYTabBarButtonTitle : @"发现", kGYTabBarButtonNomalImage : @"mycity_normal", kGYTabBarButtonSelectedImage : @"mycity_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)},
+                                 
                                     @{kGYTabBarButtonTitle : @"我的", kGYTabBarButtonNomalImage : @"account_normal", kGYTabBarButtonSelectedImage : @"account_highlight", kGYTabBarButtonType : @(GYTabBarButtonNomal)}];
     
     tabBar.delegate = self;

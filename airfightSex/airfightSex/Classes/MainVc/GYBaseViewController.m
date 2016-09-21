@@ -8,6 +8,15 @@
 
 #import "GYBaseViewController.h"
 
+//@class GYBaseVC;
+
 @implementation GYBaseViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    
+
+}
 
 @end
