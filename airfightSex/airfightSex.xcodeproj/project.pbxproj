@@ -42,6 +42,13 @@
 		B78CB7A11D8796E8009861DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A01D8796E8009861DC /* libz.tbd */; };
 		B78CB7A31D8796F9009861DC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */; };
 		B7B305011D926270005305E7 /* GYBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B305001D926270005305E7 /* GYBaseVC.swift */; };
+		B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E8F1D92866D004A6180 /* UIButton+Category.swift */; };
+		B7CE5E991D928697004A6180 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E921D928697004A6180 /* BooksViewController.swift */; };
+		B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E941D928697004A6180 /* CollectooksViewController.swift */; };
+		B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E961D928697004A6180 /* FindBooksViewController.swift */; };
+		B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E981D928697004A6180 /* MyInfoViewController.swift */; };
+		B7CE5E9F1D9286AD004A6180 /* GYBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */; };
+		B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +122,14 @@
 		B78CB7A41D879758009861DC /* GYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYConst.h; sourceTree = "<group>"; };
 		B7B304FF1D92626F005305E7 /* airfightSex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "airfightSex-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7B305001D926270005305E7 /* GYBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseVC.swift; sourceTree = "<group>"; };
+		B7CE5E8F1D92866D004A6180 /* UIButton+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		B7CE5E921D928697004A6180 /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		B7CE5E941D928697004A6180 /* CollectooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectooksViewController.swift; sourceTree = "<group>"; };
+		B7CE5E961D928697004A6180 /* FindBooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindBooksViewController.swift; sourceTree = "<group>"; };
+		B7CE5E981D928697004A6180 /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseNavViewController.swift; sourceTree = "<group>"; };
+		B7CE5EA01D9286BC004A6180 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +258,10 @@
 		B0B5201B1D852C8B00709A33 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE5E911D928697004A6180 /* Books */,
+				B7CE5E931D928697004A6180 /* CollectBooks */,
+				B7CE5E951D928697004A6180 /* FindBooks */,
+				B7CE5E971D928697004A6180 /* MyInfo */,
 				B0B520241D8531EA00709A33 /* CustomeTabbar */,
 				B0B520231D8531D300709A33 /* MainVc */,
 			);
@@ -252,6 +271,7 @@
 		B0B5201F1D852F8A00709A33 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE5E8E1D92866D004A6180 /* Category */,
 				B0E8B53F1D85931200622B1E /* GYTabBarImage */,
 				B0E8B5381D85845E00622B1E /* GYTabBar */,
 				B0B520201D852FA900709A33 /* GYMacroHeader.h */,
@@ -264,6 +284,7 @@
 		B0B520231D8531D300709A33 /* MainVc */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE5E9D1D9286AD004A6180 /* GYBaseNav */,
 				B0E8B5351D85811C00622B1E /* GYBaseViewController.h */,
 				B0E8B5361D85811C00622B1E /* GYBaseViewController.m */,
 				B7B305001D926270005305E7 /* GYBaseVC.swift */,
@@ -314,6 +335,56 @@
 				B74D16521D87CA6B00664790 /* JSPatch.framework */,
 			);
 			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		B7CE5E8E1D92866D004A6180 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5EA01D9286BC004A6180 /* UIView+Frame.h */,
+				B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */,
+				B7CE5E8F1D92866D004A6180 /* UIButton+Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B7CE5E911D928697004A6180 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5E921D928697004A6180 /* BooksViewController.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		B7CE5E931D928697004A6180 /* CollectBooks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5E941D928697004A6180 /* CollectooksViewController.swift */,
+			);
+			path = CollectBooks;
+			sourceTree = "<group>";
+		};
+		B7CE5E951D928697004A6180 /* FindBooks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5E961D928697004A6180 /* FindBooksViewController.swift */,
+			);
+			path = FindBooks;
+			sourceTree = "<group>";
+		};
+		B7CE5E971D928697004A6180 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5E981D928697004A6180 /* MyInfoViewController.swift */,
+			);
+			path = MyInfo;
+			sourceTree = "<group>";
+		};
+		B7CE5E9D1D9286AD004A6180 /* GYBaseNav */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */,
+			);
+			path = GYBaseNav;
 			sourceTree = "<group>";
 		};
 		C0514D42CD0B7AC484353373 /* Pods */ = {
@@ -527,11 +598,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
+				B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */,
+				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
+				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
+				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
+				B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */,
+				B7CE5E991D928697004A6180 /* BooksViewController.swift in Sources */,
 				B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */,
 				B7B305011D926270005305E7 /* GYBaseVC.swift in Sources */,
+				B7CE5E9F1D9286AD004A6180 /* GYBaseNavViewController.swift in Sources */,
 				B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */,
 				B0B51FE81D8528B400709A33 /* main.m in Sources */,
 			);

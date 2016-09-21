@@ -63,8 +63,17 @@
 #endif
     
 #if 1
+    
+    GYBaseNavViewController *navBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    
+     GYBaseNavViewController *navCollectBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    
+     GYBaseNavViewController *navFindBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    
+     GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[[[ViewController alloc] init], [[UIViewController alloc] init], [[ViewController alloc] init], [[UIViewController alloc] init]];
+    tabBarController.viewControllers = @[navBooks, navCollectBooks, navFindBooks, navMyInfo];
     
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
