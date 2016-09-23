@@ -50,6 +50,7 @@
 		B7CE5E9F1D9286AD004A6180 /* GYBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */; };
 		B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */; };
 		B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5EA31D928AED004A6180 /* GYSwiftConst.swift */; };
+		B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E87F561D94B7E400B53B1C /* GYTabBarTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		B7CE5EA01D9286BC004A6180 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		B7CE5EA31D928AED004A6180 /* GYSwiftConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSwiftConst.swift; sourceTree = "<group>"; };
+		B7E87F561D94B7E400B53B1C /* GYTabBarTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabBarTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 		B0B5201B1D852C8B00709A33 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B7E87F551D94B7CE00B53B1C /* GYTabBaTitlerView */,
 				B7CE5E911D928697004A6180 /* Books */,
 				B7CE5E931D928697004A6180 /* CollectBooks */,
 				B7CE5E951D928697004A6180 /* FindBooks */,
@@ -388,6 +391,14 @@
 				B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */,
 			);
 			path = GYBaseNav;
+			sourceTree = "<group>";
+		};
+		B7E87F551D94B7CE00B53B1C /* GYTabBaTitlerView */ = {
+			isa = PBXGroup;
+			children = (
+				B7E87F561D94B7E400B53B1C /* GYTabBarTitleView.swift */,
+			);
+			path = GYTabBaTitlerView;
 			sourceTree = "<group>";
 		};
 		C0514D42CD0B7AC484353373 /* Pods */ = {
@@ -606,6 +617,7 @@
 				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
 				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
+				B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */,
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,

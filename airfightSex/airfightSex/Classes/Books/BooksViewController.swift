@@ -16,9 +16,14 @@ class BooksViewController: UIViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: UIButton.createButton(imageName: nil, slectImageName: nil, title: "蜀黍", target: self, action: Selector(("btnAction"))))
         
         
-        let subView = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 20))
-        subView.backgroundColor = UIColor.black
-        navigationItem.titleView = subView
+//        let subView = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 20))
+//        subView.backgroundColor = UIColor.black
+//        navigationItem.titleView = subView
+        
+        let viewS = GYTabBarTitleView.init(frame: CGRect(x: 0, y: 0, width: 200, height: 20), leftBtnTitle: "本地", rightBtnTitle: "云端")
+        viewS.rightBtn?.isSelected = true
+        navigationItem.titleView = viewS
+        
     }
 
     

@@ -10,7 +10,7 @@ import UIKit
 
 extension UIButton {
     
-    static func createButton(imageName: String?,slectImageName: String?,title:String?,target: AnyObject?,action:Selector) -> UIButton{
+    static func createButton(imageName: String?,slectImageName: String?,title:String?,target: AnyObject?,action:Selector?) -> UIButton{
         
         let btn = UIButton()
         
@@ -26,7 +26,11 @@ extension UIButton {
             btn.setImage(UIImage(named: selectName), for: UIControlState.selected)
         }
         
-        btn.addTarget(target, action: action, for: UIControlEvents.touchUpInside)
+        if let action1 = action {
+              btn.addTarget(target, action: action1, for: UIControlEvents.touchUpInside)
+        }
+        
+      
         
         btn.sizeToFit()
         
