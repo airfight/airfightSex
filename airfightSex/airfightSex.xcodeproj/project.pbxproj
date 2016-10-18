@@ -18,6 +18,8 @@
 		B08E419A1D85437C00F510BC /* tabbar_3_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */; };
 		B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41931D85437C00F510BC /* tabbar_4@2x.png */; };
 		B08E419C1D85437C00F510BC /* tabbar_4_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */; };
+		B09D452E1DB66E1C000F0154 /* GYNavSegeCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */; };
+		B09D452F1DB66E1C000F0154 /* GYNavSegeCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */; };
 		B0B51FE81D8528B400709A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FE71D8528B400709A33 /* main.m */; };
 		B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */; };
 		B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FED1D8528B400709A33 /* ViewController.m */; };
@@ -85,6 +87,8 @@
 		B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3_h@2x.png"; sourceTree = "<group>"; };
 		B08E41931D85437C00F510BC /* tabbar_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4@2x.png"; sourceTree = "<group>"; };
 		B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4_h@2x.png"; sourceTree = "<group>"; };
+		B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavSegeCenterView.swift; sourceTree = "<group>"; };
+		B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYNavSegeCenterView.xib; sourceTree = "<group>"; };
 		B0B51FE31D8528B400709A33 /* airfightSex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airfightSex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B51FE71D8528B400709A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0B51FE91D8528B400709A33 /* GYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYAppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 		B0721E3C1DA7A5EC005A830A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */,
+				B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */,
 				B0721E411DA7A67C005A830A /* GYNavCenterView.swift */,
 				B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */,
 			);
@@ -531,6 +537,7 @@
 				B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */,
 				B0E8B5411D85935900622B1E /* account_highlight@2x.png in Resources */,
 				B0E8B5471D85937D00622B1E /* home_normal@2x.png in Resources */,
+				B09D452F1DB66E1C000F0154 /* GYNavSegeCenterView.xib in Resources */,
 				B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */,
 				B0B51FF61D8528B400709A33 /* LaunchScreen.storyboard in Resources */,
 				B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */,
@@ -624,6 +631,7 @@
 				B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */,
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
+				B09D452E1DB66E1C000F0154 /* GYNavSegeCenterView.swift in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
 				B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */,
 				B7CE5E991D928697004A6180 /* BooksViewController.swift in Sources */,
