@@ -10,9 +10,15 @@
 
 @interface ViewController ()
 
+
+/**
+ vc
+ */
+@property (nonatomic,strong) UIViewController *vc;
+
 @end
 
-@implementation ViewController
+            @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

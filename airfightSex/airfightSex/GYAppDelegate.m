@@ -70,7 +70,8 @@
     
      GYBaseNavViewController *navFindBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
     
-     GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    MyInfoDemoViewController *infoDemo = [[MyInfoDemoViewController alloc] initWithNibName:@"MyInfoDemoViewController" bundle:nil];
+    GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:infoDemo];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[navBooks, navCollectBooks, navFindBooks, navMyInfo];

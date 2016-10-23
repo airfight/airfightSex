@@ -19,6 +19,9 @@ class BooksViewController: UIViewController {
         let subView = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 20))
         subView.backgroundColor = UIColor.black
         navigationItem.titleView = subView
+        
+        
+        
     }
 
     
