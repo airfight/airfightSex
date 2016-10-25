@@ -11,7 +11,6 @@
 #import "GYTabBar.h"
 #import "ViewController.h"
 
-
 @interface GYAppDelegate () <GYTabBarDelegate>
 
 @end
@@ -38,7 +37,7 @@
     //        NSLog(@"%@", msg);
     //
     //    }];
-    
+
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];

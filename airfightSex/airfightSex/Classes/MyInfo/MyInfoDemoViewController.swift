@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import YTKNetwork
 
 class MyInfoDemoViewController: UIViewController {
 
@@ -17,12 +19,19 @@ class MyInfoDemoViewController: UIViewController {
     
     @IBAction func loginBtnAction(_ sender: AnyObject) {
         
+//        YTKNetworkAgent.shared().add(YTKBaseRequest.)
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        IQKeyboardManager.sharedManager().enable = true
+        //点击背景隐藏键盘
+        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        //设置Next
+        _ = IQKeyboardReturnKeyHandler.init(controller: self)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
