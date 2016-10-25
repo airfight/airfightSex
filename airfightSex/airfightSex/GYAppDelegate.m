@@ -10,6 +10,7 @@
 #import "GYCustomTabbar.h"
 #import "GYTabBar.h"
 #import "ViewController.h"
+#import "YTKNetwork.h"
 
 @interface GYAppDelegate () <GYTabBarDelegate>
 
@@ -37,7 +38,8 @@
     //        NSLog(@"%@", msg);
     //
     //    }];
-
+    
+//    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];

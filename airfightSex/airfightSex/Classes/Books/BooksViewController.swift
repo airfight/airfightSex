@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import YTKNetwork
 
 class BooksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let config = YTKNetworkConfig.shared()
+        config.baseUrl = "www.baidu.com"
+        
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: UIButton.createButton(imageName: nil, slectImageName: nil, title: "蜀黍", target: self, action: Selector(("btnAction"))))
         
         
@@ -20,6 +24,14 @@ class BooksViewController: UIViewController {
         subView.backgroundColor = UIColor.black
         navigationItem.titleView = subView
         
+        let registerApi = RegisterApi.init(userName: "123", pwd: "456")
+        
+        registerApi.startWithCompletionBlock(success: { (request) in
+            
+            print("成功")
+            }) { (request) in
+                print("失败")
+        }
         
         
     }
