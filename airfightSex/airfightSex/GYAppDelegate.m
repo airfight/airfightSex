@@ -39,7 +39,8 @@
     //
     //    }];
     
-//    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    config.baseUrl = @"www.baidu.com";
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
