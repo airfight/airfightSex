@@ -21,6 +21,7 @@ class MyInfoDemoViewController: UIViewController {
         
 //        YTKNetworkAgent.shared().add(YTKBaseRequest.)
         //password=5edf55f00c39082d3e&terminalType=4&username=15221981520&versionNumber=373
+        //异步。
         GYNetWork.request(method: GYNetWorkMethod.POST, url: "http://api.smzdm.com/v2/duihuan", params: "f=iphone&limit=20&offset=0&type=quan&v=6.3.2&weixin=1") { (data, response, error) in
             if data != nil {
                 
