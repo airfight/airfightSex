@@ -15,19 +15,25 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - IQKeyboardManagerSwift (4.0.6)
+  - ReachabilitySwift (3)
+  - SwiftyJSON (3.0.0)
   - YTKNetwork (2.0.1):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
-  - AFNetworking
-  - IQKeyboardManagerSwift
-  - YTKNetwork
+  - AFNetworking (~> 3.1.0)
+  - IQKeyboardManagerSwift (~> 4.0.6)
+  - ReachabilitySwift (~> 3)
+  - SwiftyJSON
+  - YTKNetwork (~> 2.0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
   YTKNetwork: f21ad2073b3353a11d257593a2859f2904bbec75
 
-PODFILE CHECKSUM: 8a938fe4756a8147e1f2cb55d0fe050a2fdb0db0
+PODFILE CHECKSUM: 05b829e98c10711e91260d32b580726f2274072b
 
 COCOAPODS: 1.1.0.rc.2

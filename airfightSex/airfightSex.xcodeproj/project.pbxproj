@@ -32,6 +32,10 @@
 		B0B520011D8528B500709A33 /* airfightSexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520001D8528B500709A33 /* airfightSexTests.m */; };
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
 		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
+		B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */; };
+		B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */; };
+		B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */; };
+		B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F651DC0D45000C656AE /* GYNetWork.swift */; };
 		B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B5361D85811C00622B1E /* GYBaseViewController.m */; };
 		B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53A1D8584C700622B1E /* GYTabBar.m */; };
 		B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53D1D85850600622B1E /* GYTabBarButton.m */; };
@@ -115,6 +119,10 @@
 		B0B520221D8530A800709A33 /* GYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPrefixHeader.pch; sourceTree = "<group>"; };
 		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
 		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
+		B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWorkManager.swift; sourceTree = "<group>"; };
+		B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYParameterEncoding.swift; sourceTree = "<group>"; };
+		B0D52F651DC0D45000C656AE /* GYNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWork.swift; sourceTree = "<group>"; };
 		B0E8B5351D85811C00622B1E /* GYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseViewController.h; sourceTree = "<group>"; };
 		B0E8B5361D85811C00622B1E /* GYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseViewController.m; sourceTree = "<group>"; };
 		B0E8B5391D8584C700622B1E /* GYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYTabBar.h; sourceTree = "<group>"; };
@@ -190,6 +198,10 @@
 		B034CF251DBF824C00942AB3 /* GYNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */,
+				B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */,
+				B0D52F651DC0D45000C656AE /* GYNetWork.swift */,
+				B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */,
 				B034CF261DBF826F00942AB3 /* RegisterApi.swift */,
 			);
 			path = GYNetWorking;
@@ -640,6 +652,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */,
+				B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */,
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
 				B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */,
 				B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */,
@@ -650,7 +664,9 @@
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
 				B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */,
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
+				B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
+				B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */,
 				B09D452E1DB66E1C000F0154 /* GYNavSegeCenterView.swift in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
 				B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */,

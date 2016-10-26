@@ -7,5 +7,7 @@ target 'airfightSex' do
     #    pod  'JSPatch'
     pod 'IQKeyboardManagerSwift','~> 4.0.6'
     pod 'YTKNetwork','~> 2.0.1'
+    pod 'ReachabilitySwift', '~> 3'
+    pod 'SwiftyJSON','3.0.0'
     
 end
