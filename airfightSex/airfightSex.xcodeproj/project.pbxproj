@@ -59,6 +59,7 @@
 		B7F4238C1DC1E8E000E2D4E1 /* GYResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423871DC1E8E000E2D4E1 /* GYResult.swift */; };
 		B7F4238E1DC1E8E800E2D4E1 /* GYError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4238D1DC1E8E800E2D4E1 /* GYError.swift */; };
 		B7F423901DC1E91600E2D4E1 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4238F1DC1E91600E2D4E1 /* NetWorkManager.swift */; };
+		B7F423941DC1EBCC00E2D4E1 /* myInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F423931DC1EBCC00E2D4E1 /* myInfo.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +100,6 @@
 		B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYAppDelegate.m; sourceTree = "<group>"; };
 		B0B51FEC1D8528B400709A33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0B51FED1D8528B400709A33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0B51FF01D8528B400709A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B51FF21D8528B400709A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B51FF51D8528B400709A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B51FF71D8528B400709A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,6 +153,7 @@
 		B7F423871DC1E8E000E2D4E1 /* GYResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYResult.swift; sourceTree = "<group>"; };
 		B7F4238D1DC1E8E800E2D4E1 /* GYError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYError.swift; sourceTree = "<group>"; };
 		B7F4238F1DC1E91600E2D4E1 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		B7F423931DC1EBCC00E2D4E1 /* myInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = myInfo.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,7 +260,6 @@
 				B0B51FEC1D8528B400709A33 /* ViewController.h */,
 				B0B51FED1D8528B400709A33 /* ViewController.m */,
 				B74D16501D87C9FF00664790 /* main.js */,
-				B0B51FEF1D8528B400709A33 /* Main.storyboard */,
 				B0B51FF21D8528B400709A33 /* Assets.xcassets */,
 				B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */,
 				B0B51FF71D8528B400709A33 /* Info.plist */,
@@ -416,6 +416,7 @@
 		B7CE5E971D928697004A6180 /* MyInfo */ = {
 			isa = PBXGroup;
 			children = (
+				B7F423931DC1EBCC00E2D4E1 /* myInfo.storyboard */,
 				B7CE5E981D928697004A6180 /* MyInfoViewController.swift */,
 				B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */,
 				B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */,
@@ -513,7 +514,7 @@
 		B0B51FDB1D8528B400709A33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = giant;
 				TargetAttributes = {
 					B0B51FE21D8528B400709A33 = {
@@ -574,6 +575,7 @@
 				B07EB3331DBC4F5C002ABD64 /* MyInfoDemoViewController.xib in Resources */,
 				B08E41981D85437C00F510BC /* tabbar_2_h@2x.png in Resources */,
 				B0E8B5511D8593D000622B1E /* post_normal@2x.png in Resources */,
+				B7F423941DC1EBCC00E2D4E1 /* myInfo.storyboard in Resources */,
 				B0E8B54F1D8593B900622B1E /* mycity_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,14 +711,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0B51FEF1D8528B400709A33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0B51FF01D8528B400709A33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -742,8 +736,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yongzhi Cui (ZSZ9J57XLQ)";
@@ -789,8 +785,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yongzhi Cui (ZSZ9J57XLQ)";
@@ -811,6 +809,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "36ccf055-e0a3-41a8-83ba-1dd82973f6e2";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -820,6 +819,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91258FA60AA615FA439F5717 /* Pods-airfightSex.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -846,6 +846,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A383BF7242B5BA7DEB660B72 /* Pods-airfightSex.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;

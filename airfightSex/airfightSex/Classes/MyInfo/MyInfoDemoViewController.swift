@@ -18,29 +18,7 @@ class MyInfoDemoViewController: UIViewController {
     @IBOutlet weak var pwdLb: UITextField!
     
     @IBAction func loginBtnAction(_ sender: AnyObject) {
-        
-//        YTKNetworkAgent.shared().add(YTKBaseRequest.)
-        //password=5edf55f00c39082d3e&terminalType=4&username=15221981520&versionNumber=373
-        //异步。
-        GYNetWork.request(method: GYNetWorkMethod.POST, url: "http://api.smzdm.com/v2/duihuan", params: "f=iphone&limit=20&offset=0&type=quan&v=6.3.2&weixin=1") { (data, response, error) in
-            if data != nil {
-                
-                print(NSString(data: data!, encoding: String.Encoding.utf8.rawValue))
-//                print(JSON(data!).dictionaryObject?["flag"])
-                print(JSON(data:data!).dictionaryObject?["error_code"])
-            }
-            
-            if response != nil {
-                print(response)
-                
-            }
-            
-            
-            if error != nil {
-                print(error)
-            }
 
-        }
     
         
     }

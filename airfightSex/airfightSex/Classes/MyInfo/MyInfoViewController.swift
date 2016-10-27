@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyInfoViewController: UIViewController {
+class MyInfoViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

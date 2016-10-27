@@ -39,8 +39,8 @@
     //
     //    }];
     
-    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    config.baseUrl = @"www.baidu.com";
+    //    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    //    config.baseUrl = @"www.baidu.com";
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -73,8 +73,10 @@
     
      GYBaseNavViewController *navFindBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
     
-    MyInfoDemoViewController *infoDemo = [[MyInfoDemoViewController alloc] initWithNibName:@"MyInfoDemoViewController" bundle:nil];
-    GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:infoDemo];
+    UINavigationController *navMyInfo = (UINavigationController *)[[UIStoryboard storyboardWithName:@"myInfo" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+//    MyInfoViewController *info = [[MyInfoViewController alloc] init];
+//    
+//    GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:info];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[navBooks, navCollectBooks, navFindBooks, navMyInfo];
