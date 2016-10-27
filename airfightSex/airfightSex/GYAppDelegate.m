@@ -10,7 +10,7 @@
 #import "GYCustomTabbar.h"
 #import "GYTabBar.h"
 #import "ViewController.h"
-
+#import "YTKNetwork.h"
 
 @interface GYAppDelegate () <GYTabBarDelegate>
 
@@ -38,6 +38,9 @@
     //        NSLog(@"%@", msg);
     //
     //    }];
+    
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    config.baseUrl = @"www.baidu.com";
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -70,7 +73,8 @@
     
      GYBaseNavViewController *navFindBooks = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
     
-     GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:[[BooksViewController alloc] init]];
+    MyInfoDemoViewController *infoDemo = [[MyInfoDemoViewController alloc] initWithNibName:@"MyInfoDemoViewController" bundle:nil];
+    GYBaseNavViewController *navMyInfo = [[GYBaseNavViewController alloc] initWithRootViewController:infoDemo];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[navBooks, navCollectBooks, navFindBooks, navMyInfo];

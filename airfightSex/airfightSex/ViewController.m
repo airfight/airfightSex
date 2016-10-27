@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
-
 @interface ViewController ()
+
+
+/**
+ vc
+ */
+@property (nonatomic,strong) UIViewController *vc;
 
 @end
 

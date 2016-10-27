@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210101BD2987841305658688 /* libPods-airfightSex.a */; };
+		758DCC011233639BD3994FB4 /* Pods_airfightSex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400668CE2BC6CA49D643B8A /* Pods_airfightSex.framework */; };
+		B034CF271DBF826F00942AB3 /* RegisterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034CF261DBF826F00942AB3 /* RegisterApi.swift */; };
 		B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721E411DA7A67C005A830A /* GYNavCenterView.swift */; };
-		B0721E441DA7A68B005A830A /*  GYNavCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */; };
+		B0721E441DA7A68B005A830A /* GYNavCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0721E431DA7A68B005A830A /* GYNavCenterView.xib */; };
+		B07EB3321DBC4F5C002ABD64 /* MyInfoDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */; };
+		B07EB3331DBC4F5C002ABD64 /* MyInfoDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */; };
 		B08E41951D85437C00F510BC /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418D1D85437C00F510BC /* tabbar_1@2x.png */; };
 		B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */; };
 		B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418F1D85437C00F510BC /* tabbar_2@2x.png */; };
@@ -18,6 +21,8 @@
 		B08E419A1D85437C00F510BC /* tabbar_3_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */; };
 		B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41931D85437C00F510BC /* tabbar_4@2x.png */; };
 		B08E419C1D85437C00F510BC /* tabbar_4_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */; };
+		B09D452E1DB66E1C000F0154 /* GYNavSegeCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */; };
+		B09D452F1DB66E1C000F0154 /* GYNavSegeCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */; };
 		B0B51FE81D8528B400709A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FE71D8528B400709A33 /* main.m */; };
 		B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */; };
 		B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B51FED1D8528B400709A33 /* ViewController.m */; };
@@ -27,6 +32,11 @@
 		B0B520011D8528B500709A33 /* airfightSexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520001D8528B500709A33 /* airfightSexTests.m */; };
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
 		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
+		B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */; };
+		B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */; };
+		B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */; };
+		B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F651DC0D45000C656AE /* GYNetWork.swift */; };
+		B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F671DC0D88900C656AE /* ConfingURL.swift */; };
 		B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B5361D85811C00622B1E /* GYBaseViewController.m */; };
 		B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53A1D8584C700622B1E /* GYTabBar.m */; };
 		B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53D1D85850600622B1E /* GYTabBarButton.m */; };
@@ -73,11 +83,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		210101BD2987841305658688 /* libPods-airfightSex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airfightSex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4400668CE2BC6CA49D643B8A /* Pods_airfightSex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_airfightSex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91258FA60AA615FA439F5717 /* Pods-airfightSex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.debug.xcconfig"; sourceTree = "<group>"; };
 		A383BF7242B5BA7DEB660B72 /* Pods-airfightSex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.release.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.release.xcconfig"; sourceTree = "<group>"; };
+		B034CF261DBF826F00942AB3 /* RegisterApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterApi.swift; sourceTree = "<group>"; };
 		B0721E411DA7A67C005A830A /* GYNavCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavCenterView.swift; sourceTree = "<group>"; };
-		B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " GYNavCenterView.xib"; sourceTree = "<group>"; };
+		B0721E431DA7A68B005A830A /* GYNavCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYNavCenterView.xib; sourceTree = "<group>"; };
+		B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoDemoViewController.swift; sourceTree = "<group>"; };
+		B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInfoDemoViewController.xib; sourceTree = "<group>"; };
 		B08E418D1D85437C00F510BC /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
 		B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1_h@2x.png"; sourceTree = "<group>"; };
 		B08E418F1D85437C00F510BC /* tabbar_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2@2x.png"; sourceTree = "<group>"; };
@@ -86,6 +99,8 @@
 		B08E41921D85437C00F510BC /* tabbar_3_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3_h@2x.png"; sourceTree = "<group>"; };
 		B08E41931D85437C00F510BC /* tabbar_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4@2x.png"; sourceTree = "<group>"; };
 		B08E41941D85437C00F510BC /* tabbar_4_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4_h@2x.png"; sourceTree = "<group>"; };
+		B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavSegeCenterView.swift; sourceTree = "<group>"; };
+		B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYNavSegeCenterView.xib; sourceTree = "<group>"; };
 		B0B51FE31D8528B400709A33 /* airfightSex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airfightSex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B51FE71D8528B400709A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0B51FE91D8528B400709A33 /* GYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYAppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +121,11 @@
 		B0B520221D8530A800709A33 /* GYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPrefixHeader.pch; sourceTree = "<group>"; };
 		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
 		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
+		B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWorkManager.swift; sourceTree = "<group>"; };
+		B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYParameterEncoding.swift; sourceTree = "<group>"; };
+		B0D52F651DC0D45000C656AE /* GYNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWork.swift; sourceTree = "<group>"; };
+		B0D52F671DC0D88900C656AE /* ConfingURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfingURL.swift; sourceTree = "<group>"; };
 		B0E8B5351D85811C00622B1E /* GYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseViewController.h; sourceTree = "<group>"; };
 		B0E8B5361D85811C00622B1E /* GYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseViewController.m; sourceTree = "<group>"; };
 		B0E8B5391D8584C700622B1E /* GYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYTabBar.h; sourceTree = "<group>"; };
@@ -148,7 +168,7 @@
 				B78CB7A31D8796F9009861DC /* JavaScriptCore.framework in Frameworks */,
 				B78CB7A11D8796E8009861DC /* libz.tbd in Frameworks */,
 				B74D16531D87CA6B00664790 /* JSPatch.framework in Frameworks */,
-				52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */,
+				758DCC011233639BD3994FB4 /* Pods_airfightSex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,16 +194,31 @@
 			children = (
 				B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */,
 				B78CB7A01D8796E8009861DC /* libz.tbd */,
-				210101BD2987841305658688 /* libPods-airfightSex.a */,
+				4400668CE2BC6CA49D643B8A /* Pods_airfightSex.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B034CF251DBF824C00942AB3 /* GYNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */,
+				B0D52F651DC0D45000C656AE /* GYNetWork.swift */,
+				B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */,
+				B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */,
+				B034CF261DBF826F00942AB3 /* RegisterApi.swift */,
+				B0D52F671DC0D88900C656AE /* ConfingURL.swift */,
+			);
+			path = GYNetWorking;
 			sourceTree = "<group>";
 		};
 		B0721E3C1DA7A5EC005A830A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B09D452C1DB66E1C000F0154 /* GYNavSegeCenterView.swift */,
+				B09D452D1DB66E1C000F0154 /* GYNavSegeCenterView.xib */,
 				B0721E411DA7A67C005A830A /* GYNavCenterView.swift */,
-				B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */,
+				B0721E431DA7A68B005A830A /* GYNavCenterView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +324,7 @@
 		B0B5201F1D852F8A00709A33 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B034CF251DBF824C00942AB3 /* GYNetWorking */,
 				B7CE5E8E1D92866D004A6180 /* Category */,
 				B0E8B53F1D85931200622B1E /* GYTabBarImage */,
 				B0E8B5381D85845E00622B1E /* GYTabBar */,
@@ -395,6 +431,8 @@
 			isa = PBXGroup;
 			children = (
 				B7CE5E981D928697004A6180 /* MyInfoViewController.swift */,
+				B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */,
+				B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */,
 			);
 			path = MyInfo;
 			sourceTree = "<group>";
@@ -532,7 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0721E441DA7A68B005A830A /*  GYNavCenterView.xib in Resources */,
+				B0721E441DA7A68B005A830A /* GYNavCenterView.xib in Resources */,
 				B74D16511D87C9FF00664790 /* main.js in Resources */,
 				B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */,
 				B0E8B5491D85938F00622B1E /* message_highlight@2x.png in Resources */,
@@ -542,6 +580,7 @@
 				B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */,
 				B0E8B5411D85935900622B1E /* account_highlight@2x.png in Resources */,
 				B0E8B5471D85937D00622B1E /* home_normal@2x.png in Resources */,
+				B09D452F1DB66E1C000F0154 /* GYNavSegeCenterView.xib in Resources */,
 				B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */,
 				B0B51FF61D8528B400709A33 /* LaunchScreen.storyboard in Resources */,
 				B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */,
@@ -550,6 +589,7 @@
 				B0E8B5451D85937500622B1E /* home_highlight@2x.png in Resources */,
 				B0E8B54D1D8593B300622B1E /* mycity_highlight@2x.png in Resources */,
 				B0B51FF31D8528B400709A33 /* Assets.xcassets in Resources */,
+				B07EB3331DBC4F5C002ABD64 /* MyInfoDemoViewController.xib in Resources */,
 				B08E41981D85437C00F510BC /* tabbar_2_h@2x.png in Resources */,
 				B0E8B5511D8593D000622B1E /* post_normal@2x.png in Resources */,
 				B0E8B54F1D8593B900622B1E /* mycity_normal@2x.png in Resources */,
@@ -586,7 +626,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		434E60F66CABF3592C0839B7 /* [CP] Copy Pods Resources */ = {
@@ -626,11 +666,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */,
+				B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */,
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
 				B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */,
 				B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */,
 				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
 				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
+				B034CF271DBF826F00942AB3 /* RegisterApi.swift in Sources */,
+				B07EB3321DBC4F5C002ABD64 /* MyInfoDemoViewController.swift in Sources */,
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
 <<<<<<< HEAD
 				B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */,
@@ -638,7 +682,11 @@
 				B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */,
 >>>>>>> origin/master
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
+				B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
+				B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */,
+				B09D452E1DB66E1C000F0154 /* GYNavSegeCenterView.swift in Sources */,
+				B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
 				B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */,
 				B7CE5E991D928697004A6180 /* BooksViewController.swift in Sources */,
