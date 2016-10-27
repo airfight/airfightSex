@@ -26,6 +26,7 @@
 		B0B520011D8528B500709A33 /* airfightSexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520001D8528B500709A33 /* airfightSexTests.m */; };
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
 		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
+		B0BDDDFC1DC21DBA004B620C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BDDDFB1DC21DBA004B620C /* Launch Screen.storyboard */; };
 		B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F671DC0D88900C656AE /* ConfingURL.swift */; };
 		B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B5361D85811C00622B1E /* GYBaseViewController.m */; };
 		B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53A1D8584C700622B1E /* GYTabBar.m */; };
@@ -101,7 +102,6 @@
 		B0B51FEC1D8528B400709A33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0B51FED1D8528B400709A33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0B51FF21D8528B400709A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0B51FF51D8528B400709A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B51FF71D8528B400709A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B51FFC1D8528B500709A33 /* airfightSexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airfightSexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B520001D8528B500709A33 /* airfightSexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = airfightSexTests.m; sourceTree = "<group>"; };
@@ -113,6 +113,7 @@
 		B0B520221D8530A800709A33 /* GYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPrefixHeader.pch; sourceTree = "<group>"; };
 		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
 		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
+		B0BDDDFB1DC21DBA004B620C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B0D52F671DC0D88900C656AE /* ConfingURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfingURL.swift; sourceTree = "<group>"; };
 		B0E8B5351D85811C00622B1E /* GYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseViewController.h; sourceTree = "<group>"; };
 		B0E8B5361D85811C00622B1E /* GYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseViewController.m; sourceTree = "<group>"; };
@@ -259,9 +260,9 @@
 				B0B51FEA1D8528B400709A33 /* GYAppDelegate.m */,
 				B0B51FEC1D8528B400709A33 /* ViewController.h */,
 				B0B51FED1D8528B400709A33 /* ViewController.m */,
+				B0BDDDFB1DC21DBA004B620C /* Launch Screen.storyboard */,
 				B74D16501D87C9FF00664790 /* main.js */,
 				B0B51FF21D8528B400709A33 /* Assets.xcassets */,
-				B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */,
 				B0B51FF71D8528B400709A33 /* Info.plist */,
 				B0B51FE61D8528B400709A33 /* Supporting Files */,
 			);
@@ -563,6 +564,7 @@
 				B08E419A1D85437C00F510BC /* tabbar_3_h@2x.png in Resources */,
 				B08E419C1D85437C00F510BC /* tabbar_4_h@2x.png in Resources */,
 				B08E419B1D85437C00F510BC /* tabbar_4@2x.png in Resources */,
+				B0BDDDFC1DC21DBA004B620C /* Launch Screen.storyboard in Resources */,
 				B0E8B5411D85935900622B1E /* account_highlight@2x.png in Resources */,
 				B0E8B5471D85937D00622B1E /* home_normal@2x.png in Resources */,
 				B08E41991D85437C00F510BC /* tabbar_3@2x.png in Resources */,
@@ -710,17 +712,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		B0B51FF41D8528B400709A33 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0B51FF51D8528B400709A33 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		B0B5200E1D8528B500709A33 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -821,7 +812,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -848,7 +838,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
