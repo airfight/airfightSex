@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		758DCC011233639BD3994FB4 /* Pods_airfightSex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400668CE2BC6CA49D643B8A /* Pods_airfightSex.framework */; };
 		B034CF271DBF826F00942AB3 /* RegisterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034CF261DBF826F00942AB3 /* RegisterApi.swift */; };
 		B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721E411DA7A67C005A830A /* GYNavCenterView.swift */; };
 		B0721E441DA7A68B005A830A /* GYNavCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0721E431DA7A68B005A830A /* GYNavCenterView.xib */; };
 		B07EB3321DBC4F5C002ABD64 /* MyInfoDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */; };
 		B07EB3331DBC4F5C002ABD64 /* MyInfoDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */; };
+=======
+		52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210101BD2987841305658688 /* libPods-airfightSex.a */; };
+>>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 =======
 		52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210101BD2987841305658688 /* libPods-airfightSex.a */; };
 >>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
@@ -91,11 +95,14 @@
 		91258FA60AA615FA439F5717 /* Pods-airfightSex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.debug.xcconfig"; sourceTree = "<group>"; };
 		A383BF7242B5BA7DEB660B72 /* Pods-airfightSex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.release.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.release.xcconfig"; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		B034CF261DBF826F00942AB3 /* RegisterApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterApi.swift; sourceTree = "<group>"; };
 		B0721E411DA7A67C005A830A /* GYNavCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavCenterView.swift; sourceTree = "<group>"; };
 		B0721E431DA7A68B005A830A /* GYNavCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYNavCenterView.xib; sourceTree = "<group>"; };
 		B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoDemoViewController.swift; sourceTree = "<group>"; };
 		B07EB3311DBC4F5C002ABD64 /* MyInfoDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInfoDemoViewController.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 =======
 >>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 		B08E418D1D85437C00F510BC /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
@@ -207,6 +214,7 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		B034CF251DBF824C00942AB3 /* GYNetWorking */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +239,8 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 =======
 >>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 		B08E418C1D85437C00F510BC /* CustomTabBarImages1 */ = {
@@ -580,7 +590,10 @@
 			buildActionMask = 2147483647;
 			files = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				B0721E441DA7A68B005A830A /* GYNavCenterView.xib in Resources */,
+=======
+>>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 =======
 >>>>>>> parent of cadf4bc... Merge remote-tracking branch 'origin/master'
 				B74D16511D87C9FF00664790 /* main.js in Resources */,
