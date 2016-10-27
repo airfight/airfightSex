@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52EB1DB74873A79A0CF1D0FA /* libPods-airfightSex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210101BD2987841305658688 /* libPods-airfightSex.a */; };
+		B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721E411DA7A67C005A830A /* GYNavCenterView.swift */; };
+		B0721E441DA7A68B005A830A /*  GYNavCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */; };
 		B08E41951D85437C00F510BC /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418D1D85437C00F510BC /* tabbar_1@2x.png */; };
 		B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */; };
 		B08E41971D85437C00F510BC /* tabbar_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08E418F1D85437C00F510BC /* tabbar_2@2x.png */; };
@@ -74,6 +76,8 @@
 		210101BD2987841305658688 /* libPods-airfightSex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airfightSex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91258FA60AA615FA439F5717 /* Pods-airfightSex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.debug.xcconfig"; sourceTree = "<group>"; };
 		A383BF7242B5BA7DEB660B72 /* Pods-airfightSex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airfightSex.release.xcconfig"; path = "Pods/Target Support Files/Pods-airfightSex/Pods-airfightSex.release.xcconfig"; sourceTree = "<group>"; };
+		B0721E411DA7A67C005A830A /* GYNavCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavCenterView.swift; sourceTree = "<group>"; };
+		B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " GYNavCenterView.xib"; sourceTree = "<group>"; };
 		B08E418D1D85437C00F510BC /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
 		B08E418E1D85437C00F510BC /* tabbar_1_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1_h@2x.png"; sourceTree = "<group>"; };
 		B08E418F1D85437C00F510BC /* tabbar_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2@2x.png"; sourceTree = "<group>"; };
@@ -173,6 +177,15 @@
 				210101BD2987841305658688 /* libPods-airfightSex.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0721E3C1DA7A5EC005A830A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0721E411DA7A67C005A830A /* GYNavCenterView.swift */,
+				B0721E431DA7A68B005A830A /*  GYNavCenterView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B08E418C1D85437C00F510BC /* CustomTabBarImages1 */ = {
@@ -356,6 +369,7 @@
 		B7CE5E911D928697004A6180 /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				B0721E3C1DA7A5EC005A830A /* View */,
 				B7CE5E921D928697004A6180 /* BooksViewController.swift */,
 			);
 			path = Books;
@@ -518,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0721E441DA7A68B005A830A /*  GYNavCenterView.xib in Resources */,
 				B74D16511D87C9FF00664790 /* main.js in Resources */,
 				B08E41961D85437C00F510BC /* tabbar_1_h@2x.png in Resources */,
 				B0E8B5491D85938F00622B1E /* message_highlight@2x.png in Resources */,
@@ -617,7 +632,11 @@
 				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
 				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
+<<<<<<< HEAD
 				B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */,
+=======
+				B0721E421DA7A67C005A830A /* GYNavCenterView.swift in Sources */,
+>>>>>>> origin/master
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
