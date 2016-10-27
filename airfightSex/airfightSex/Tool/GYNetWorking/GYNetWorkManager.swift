@@ -8,21 +8,21 @@
 
 import Foundation
 
-public typealias Success = (_ data:Data? , _ response:URLResponse?) -> Void
-public typealias Failure = (_ error:Error?) -> Void
 
 class GYNetWorkManager {
     
     let method: GYNetWorkMethod!
     let params: [String: Any]?
     let url:String!
-    let callBack:RequestCompletion
+    let callBack:RequestCompletion?
+    let resultBack: SuccessAndFailureResult?
     var request:URLRequest
     let session = URLSession.shared
     var task: URLSessionDataTask!
     
     /// 服务器请求超时时间设置
     var timeOut: TimeInterval = 10
+    
     init(url:String!, method: GYNetWorkMethod,params: [String: Any]?,callBack:@escaping RequestCompletion)
     {
         self.url = url
@@ -31,6 +31,18 @@ class GYNetWorkManager {
         self.callBack = callBack
         self.request = URLRequest.init(url: URL(string: url)!)
         self.request.timeoutInterval = timeOut
+        self.resultBack = nil
+    }
+    
+    init(url:String!, method: GYNetWorkMethod,params: [String: Any]?,resultBack:@escaping SuccessAndFailureResult)
+    {
+        self.url = url
+        self.method = method
+        self.params = params
+        self.resultBack = resultBack
+        self.request = URLRequest.init(url: URL(string: url)!)
+        self.request.timeoutInterval = timeOut
+        self.callBack = nil
         
     }
     
@@ -54,23 +66,69 @@ class GYNetWorkManager {
         }
     }
     
-    func fireTask() {
+    func fireTask(isBool:Bool) {
         
         task = session.dataTask(with: self.request, completionHandler: { (data, response, error) in
             
-            self.callBack(data, response, error)
-            
-            
+            if isBool {
+                let reslut: GYResult<Any> = self.serializaResponseJSON(data: data, response: response as! HTTPURLResponse?, error: error)
+                print(reslut)
+                self.resultBack!(reslut)
+            } else {
+               self.callBack!(data, response, error)
+            }
+
         })
         task.resume()
+        
     }
     
+    
+    /// 未解析结果
     func startFire() {
         
         buildRequest()
         buildBody()
-        fireTask()
+        fireTask(isBool: false)
         
     }
     
+    func resuluFire() {
+        buildRequest()
+        buildBody()
+        fireTask(isBool: true)
+    }
+    
+    
+    /// 返回成功和失败的结果
+    ///
+    /// - parameter data:     data description
+    /// - parameter response: response description
+    /// - parameter error:    error description
+    ///
+    /// - returns: return value description
+    func serializaResponseJSON( data: Data?,response: HTTPURLResponse?,error:Error?) -> GYResult<Any> {
+        
+        guard error == nil else {
+            return .failure(error!)
+        }
+        
+        if let response = response, emptyDataStatusCodes.contains(response.statusCode){
+            return .sucess(NSNull())
+        }
+        
+        guard let validData = data, validData.count > 0 else {
+            return .failure(GYError.responseSerializationFailed(reason: .inputDataNilOrZeroLength))
+        }
+        
+        do {
+            let json = try JSONSerialization.jsonObject(with: validData, options: JSONSerialization.ReadingOptions.allowFragments)
+            return .sucess(json)
+        } catch {
+            return .failure(GYError.responseSerializationFailed(reason: .jsonSerializationFailed(error: error)))
+        }
+    }
+    
 }
+
+private let emptyDataStatusCodes: Set<Int> = [204, 205]

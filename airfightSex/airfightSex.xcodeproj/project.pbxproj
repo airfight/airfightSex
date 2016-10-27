@@ -26,10 +26,6 @@
 		B0B520011D8528B500709A33 /* airfightSexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520001D8528B500709A33 /* airfightSexTests.m */; };
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
 		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
-		B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */; };
-		B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */; };
-		B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */; };
-		B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F651DC0D45000C656AE /* GYNetWork.swift */; };
 		B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F671DC0D88900C656AE /* ConfingURL.swift */; };
 		B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B5361D85811C00622B1E /* GYBaseViewController.m */; };
 		B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53A1D8584C700622B1E /* GYTabBar.m */; };
@@ -56,6 +52,13 @@
 		B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */; };
 		B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE5EA31D928AED004A6180 /* GYSwiftConst.swift */; };
 		B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E87F561D94B7E400B53B1C /* GYTabBarTitleView.swift */; };
+		B7F423881DC1E8E000E2D4E1 /* GYNetConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423831DC1E8E000E2D4E1 /* GYNetConst.swift */; };
+		B7F423891DC1E8E000E2D4E1 /* GYNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423841DC1E8E000E2D4E1 /* GYNetWorkManager.swift */; };
+		B7F4238A1DC1E8E000E2D4E1 /* GYParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423851DC1E8E000E2D4E1 /* GYParameterEncoding.swift */; };
+		B7F4238B1DC1E8E000E2D4E1 /* GYRespons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423861DC1E8E000E2D4E1 /* GYRespons.swift */; };
+		B7F4238C1DC1E8E000E2D4E1 /* GYResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F423871DC1E8E000E2D4E1 /* GYResult.swift */; };
+		B7F4238E1DC1E8E800E2D4E1 /* GYError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4238D1DC1E8E800E2D4E1 /* GYError.swift */; };
+		B7F423901DC1E91600E2D4E1 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4238F1DC1E91600E2D4E1 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,10 +113,6 @@
 		B0B520221D8530A800709A33 /* GYPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPrefixHeader.pch; sourceTree = "<group>"; };
 		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
 		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
-		B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
-		B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWorkManager.swift; sourceTree = "<group>"; };
-		B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYParameterEncoding.swift; sourceTree = "<group>"; };
-		B0D52F651DC0D45000C656AE /* GYNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWork.swift; sourceTree = "<group>"; };
 		B0D52F671DC0D88900C656AE /* ConfingURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfingURL.swift; sourceTree = "<group>"; };
 		B0E8B5351D85811C00622B1E /* GYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseViewController.h; sourceTree = "<group>"; };
 		B0E8B5361D85811C00622B1E /* GYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseViewController.m; sourceTree = "<group>"; };
@@ -147,6 +146,13 @@
 		B7CE5EA11D9286BC004A6180 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		B7CE5EA31D928AED004A6180 /* GYSwiftConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSwiftConst.swift; sourceTree = "<group>"; };
 		B7E87F561D94B7E400B53B1C /* GYTabBarTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTabBarTitleView.swift; sourceTree = "<group>"; };
+		B7F423831DC1E8E000E2D4E1 /* GYNetConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetConst.swift; sourceTree = "<group>"; };
+		B7F423841DC1E8E000E2D4E1 /* GYNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWorkManager.swift; sourceTree = "<group>"; };
+		B7F423851DC1E8E000E2D4E1 /* GYParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYParameterEncoding.swift; sourceTree = "<group>"; };
+		B7F423861DC1E8E000E2D4E1 /* GYRespons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYRespons.swift; sourceTree = "<group>"; };
+		B7F423871DC1E8E000E2D4E1 /* GYResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYResult.swift; sourceTree = "<group>"; };
+		B7F4238D1DC1E8E800E2D4E1 /* GYError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYError.swift; sourceTree = "<group>"; };
+		B7F4238F1DC1E91600E2D4E1 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,10 +197,13 @@
 		B034CF251DBF824C00942AB3 /* GYNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				B0D52F5F1DC0D43B00C656AE /* NetWorkManager.swift */,
-				B0D52F651DC0D45000C656AE /* GYNetWork.swift */,
-				B0D52F601DC0D43C00C656AE /* GYNetWorkManager.swift */,
-				B0D52F611DC0D43C00C656AE /* GYParameterEncoding.swift */,
+				B7F4238F1DC1E91600E2D4E1 /* NetWorkManager.swift */,
+				B7F423841DC1E8E000E2D4E1 /* GYNetWorkManager.swift */,
+				B7F423851DC1E8E000E2D4E1 /* GYParameterEncoding.swift */,
+				B7F423861DC1E8E000E2D4E1 /* GYRespons.swift */,
+				B7F423871DC1E8E000E2D4E1 /* GYResult.swift */,
+				B7F423831DC1E8E000E2D4E1 /* GYNetConst.swift */,
+				B7F4238D1DC1E8E800E2D4E1 /* GYError.swift */,
 				B034CF261DBF826F00942AB3 /* RegisterApi.swift */,
 				B0D52F671DC0D88900C656AE /* ConfingURL.swift */,
 			);
@@ -638,11 +647,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D52F631DC0D43C00C656AE /* GYNetWorkManager.swift in Sources */,
-				B0D52F641DC0D43C00C656AE /* GYParameterEncoding.swift in Sources */,
+				B7F423891DC1E8E000E2D4E1 /* GYNetWorkManager.swift in Sources */,
+				B7F4238A1DC1E8E000E2D4E1 /* GYParameterEncoding.swift in Sources */,
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
 				B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */,
 				B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */,
+				B7F423901DC1E91600E2D4E1 /* NetWorkManager.swift in Sources */,
 				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
 				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
 				B034CF271DBF826F00942AB3 /* RegisterApi.swift in Sources */,
@@ -650,17 +660,19 @@
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,
 				B7E87F571D94B7E400B53B1C /* GYTabBarTitleView.swift in Sources */,
 				B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */,
-				B0D52F661DC0D45000C656AE /* GYNetWork.swift in Sources */,
 				B0B51FEB1D8528B400709A33 /* GYAppDelegate.m in Sources */,
-				B0D52F621DC0D43C00C656AE /* NetWorkManager.swift in Sources */,
 				B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */,
 				B0E8B53E1D85850600622B1E /* GYTabBarButton.m in Sources */,
 				B7CE5E9B1D928697004A6180 /* FindBooksViewController.swift in Sources */,
 				B7CE5E991D928697004A6180 /* BooksViewController.swift in Sources */,
+				B7F4238C1DC1E8E000E2D4E1 /* GYResult.swift in Sources */,
 				B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */,
 				B7B305011D926270005305E7 /* GYBaseVC.swift in Sources */,
+				B7F423881DC1E8E000E2D4E1 /* GYNetConst.swift in Sources */,
+				B7F4238B1DC1E8E000E2D4E1 /* GYRespons.swift in Sources */,
 				B7CE5E9F1D9286AD004A6180 /* GYBaseNavViewController.swift in Sources */,
 				B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */,
+				B7F4238E1DC1E8E800E2D4E1 /* GYError.swift in Sources */,
 				B0B51FE81D8528B400709A33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
