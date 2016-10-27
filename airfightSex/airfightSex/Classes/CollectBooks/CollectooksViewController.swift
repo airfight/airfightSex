@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectooksViewController: UIViewController {
+class CollectooksViewController: GYBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

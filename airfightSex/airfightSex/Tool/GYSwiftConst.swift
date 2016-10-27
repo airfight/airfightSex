@@ -10,6 +10,10 @@ import UIKit
 
 let tabbarbgColor = GYSwiftConst.rgba(r: 17, g: 49, b: 0, a: 1)
 
+let SCREEN_WIDTH = UIScreen.main.bounds.size.width
+
+let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
+
 
 class GYSwiftConst: NSObject {
     

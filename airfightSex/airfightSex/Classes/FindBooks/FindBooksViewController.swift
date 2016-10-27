@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FindBooksViewController: UIViewController {
+class FindBooksViewController: GYBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

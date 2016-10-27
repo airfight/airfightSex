@@ -27,6 +27,7 @@
 		B0B5200C1D8528B500709A33 /* airfightSexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B5200B1D8528B500709A33 /* airfightSexUITests.m */; };
 		B0B520271D8532C800709A33 /* GYCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B520261D8532C800709A33 /* GYCustomTabbar.m */; };
 		B0BDDDFC1DC21DBA004B620C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BDDDFB1DC21DBA004B620C /* Launch Screen.storyboard */; };
+		B0BDDE001DC231B9004B620C /* GYTransparentNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDDDFF1DC231B9004B620C /* GYTransparentNavController.swift */; };
 		B0D52F681DC0D88900C656AE /* ConfingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D52F671DC0D88900C656AE /* ConfingURL.swift */; };
 		B0E8B5371D85811C00622B1E /* GYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B5361D85811C00622B1E /* GYBaseViewController.m */; };
 		B0E8B53B1D8584C700622B1E /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B53A1D8584C700622B1E /* GYTabBar.m */; };
@@ -114,6 +115,7 @@
 		B0B520251D8532C800709A33 /* GYCustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCustomTabbar.h; sourceTree = "<group>"; };
 		B0B520261D8532C800709A33 /* GYCustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCustomTabbar.m; sourceTree = "<group>"; };
 		B0BDDDFB1DC21DBA004B620C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B0BDDDFF1DC231B9004B620C /* GYTransparentNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTransparentNavController.swift; sourceTree = "<group>"; };
 		B0D52F671DC0D88900C656AE /* ConfingURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfingURL.swift; sourceTree = "<group>"; };
 		B0E8B5351D85811C00622B1E /* GYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBaseViewController.h; sourceTree = "<group>"; };
 		B0E8B5361D85811C00622B1E /* GYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBaseViewController.m; sourceTree = "<group>"; };
@@ -429,6 +431,7 @@
 			isa = PBXGroup;
 			children = (
 				B7CE5E9E1D9286AD004A6180 /* GYBaseNavViewController.swift */,
+				B0BDDDFF1DC231B9004B620C /* GYTransparentNavController.swift */,
 			);
 			path = GYBaseNav;
 			sourceTree = "<group>";
@@ -659,6 +662,7 @@
 				B7F423901DC1E91600E2D4E1 /* NetWorkManager.swift in Sources */,
 				B7CE5E901D92866D004A6180 /* UIButton+Category.swift in Sources */,
 				B7CE5EA21D9286BC004A6180 /* UIView+Frame.m in Sources */,
+				B0BDDE001DC231B9004B620C /* GYTransparentNavController.swift in Sources */,
 				B034CF271DBF826F00942AB3 /* RegisterApi.swift in Sources */,
 				B07EB3321DBC4F5C002ABD64 /* MyInfoDemoViewController.swift in Sources */,
 				B7CE5E9C1D928697004A6180 /* MyInfoViewController.swift in Sources */,

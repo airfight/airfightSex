@@ -9,7 +9,7 @@
 import UIKit
 import YTKNetwork
 
-class BooksViewController: UIViewController {
+class BooksViewController: GYBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
