@@ -14,10 +14,9 @@ class MyInfoViewController: UITableViewController{
 
     
     var headImageView: UIImageView!
-    var topView: UIView!
+    var topView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         //将头像添加到Nav上面 并给予缩放的效果
         let titleView = UIView()
         self.navigationItem.titleView = titleView
@@ -30,20 +29,22 @@ class MyInfoViewController: UITableViewController{
         titleView.addSubview(headImageView)
         
         self.navigationController?.transView?.backgroundColor = UIColor.red
-        
+        //先添加topView 否则会造成 tableView滚动时topView为nil时崩溃
+//        topView = UIView(frame: CGRect(x: 0, y: -kImageHeight, width: SCREEN_WIDTH, height: kImageHeight))
 //        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
 //        //navigationBar设置 底部黑线
 //        self.navigationController?.navigationBar.shadowImage = UIImage()
         
         let tableHeadView = UINib.init(nibName: "MyInfoHeadView", bundle: nil).instantiate(withOwner: nil, options: nil).last as! MyInfoHeadView
-        tableHeadView.frame = CGRect(x: 0, y: 0, width:SCREEN_WIDTH, height: 45)
-        tableHeadView.backgroundColor = UIColor.clear
-        self.tableView.tableHeaderView = tableHeadView
-        self.tableView.backgroundColor = UIColor.clear
+        
+        tableHeadView.frame =  CGRect(x: 0, y: -kImageHeight, width: SCREEN_WIDTH, height: kImageHeight)
+        
+        topView = tableHeadView.headBackgroundImage
+        topView.contentMode = .scaleAspectFill
+        self.tableView.insertSubview(tableHeadView, at: 0)
+
         self.tableView.contentInset = UIEdgeInsets(top: CGFloat(kImageHeight), left: 0, bottom: 0, right: 0)
-        topView = UIView(frame: CGRect(x: 0, y: -kImageHeight, width: SCREEN_WIDTH, height: kImageHeight))
-        topView.backgroundColor = UIColor.blue
-        self.tableView.insertSubview(topView, at: 0)
+        self.automaticallyAdjustsScrollViewInsets = false
         
     }
     

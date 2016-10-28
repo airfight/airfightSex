@@ -9,8 +9,10 @@
 import UIKit
 
 class MyInfoHeadView: UIView {
+
+
     
-    
+    @IBOutlet weak var headBackgroundImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         

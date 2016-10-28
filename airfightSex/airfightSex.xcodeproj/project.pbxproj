@@ -537,7 +537,7 @@
 				TargetAttributes = {
 					B0B51FE21D8528B400709A33 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = UZZG6NM74T;
+						DevelopmentTeam = NFC68K2BKB;
 						LastSwiftMigration = 0800;
 					};
 					B0B51FFB1D8528B500709A33 = {
@@ -835,6 +835,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NFC68K2BKB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/airfightSex/ThirdLib",
@@ -843,7 +844,7 @@
 				INFOPLIST_FILE = airfightSex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giant.airfightSex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giant.airfightSe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "airfightSex/Classes/MainVc/airfightSex-Bridging-Header.h";
@@ -861,6 +862,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NFC68K2BKB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/airfightSex/ThirdLib",
@@ -869,7 +871,7 @@
 				INFOPLIST_FILE = airfightSex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giant.airfightSex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giant.airfightSe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "airfightSex/Classes/MainVc/airfightSex-Bridging-Header.h";
