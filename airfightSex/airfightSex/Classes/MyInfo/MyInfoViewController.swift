@@ -8,7 +8,7 @@
 
 import UIKit
 
-let kImageHeight:CGFloat = 200.0
+let kImageHeight:CGFloat = 200
 
 class MyInfoViewController: UITableViewController{
 
@@ -35,12 +35,15 @@ class MyInfoViewController: UITableViewController{
 //        //navigationBar设置 底部黑线
 //        self.navigationController?.navigationBar.shadowImage = UIImage()
         
-        topView = UIView(frame: CGRect(x: 0, y: -kImageHeight, width:SCREEN_WIDTH, height: kImageHeight))
+        let tableHeadView = UINib.init(nibName: "MyInfoHeadView", bundle: nil).instantiate(withOwner: nil, options: nil).last as! MyInfoHeadView
+        tableHeadView.frame = CGRect(x: 0, y: 0, width:SCREEN_WIDTH, height: 45)
+        tableHeadView.backgroundColor = UIColor.clear
+        self.tableView.tableHeaderView = tableHeadView
+        self.tableView.backgroundColor = UIColor.clear
+        self.tableView.contentInset = UIEdgeInsets(top: CGFloat(kImageHeight), left: 0, bottom: 0, right: 0)
+        topView = UIView(frame: CGRect(x: 0, y: -kImageHeight, width: SCREEN_WIDTH, height: kImageHeight))
         topView.backgroundColor = UIColor.blue
         self.tableView.insertSubview(topView, at: 0)
-        
-        self.tableView.contentInset = UIEdgeInsets(top: CGFloat(kImageHeight), left: 0, bottom: 0, right: 0)
-        
         
     }
     

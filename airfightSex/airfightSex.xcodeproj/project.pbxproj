@@ -41,6 +41,8 @@
 		B0E8B54D1D8593B300622B1E /* mycity_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B54C1D8593B300622B1E /* mycity_highlight@2x.png */; };
 		B0E8B54F1D8593B900622B1E /* mycity_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B54E1D8593B900622B1E /* mycity_normal@2x.png */; };
 		B0E8B5511D8593D000622B1E /* post_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E8B5501D8593D000622B1E /* post_normal@2x.png */; };
+		B0F91E611DC36CEC0076A1F1 /* MyInfoHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F91E601DC36CEC0076A1F1 /* MyInfoHeadView.swift */; };
+		B0F91E631DC36CFF0076A1F1 /* MyInfoHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F91E621DC36CFF0076A1F1 /* MyInfoHeadView.xib */; };
 		B74D16531D87CA6B00664790 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74D16521D87CA6B00664790 /* JSPatch.framework */; };
 		B78CB7A11D8796E8009861DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A01D8796E8009861DC /* libz.tbd */; };
 		B78CB7A31D8796F9009861DC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78CB7A21D8796F9009861DC /* JavaScriptCore.framework */; };
@@ -132,6 +134,8 @@
 		B0E8B54C1D8593B300622B1E /* mycity_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycity_highlight@2x.png"; sourceTree = "<group>"; };
 		B0E8B54E1D8593B900622B1E /* mycity_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mycity_normal@2x.png"; sourceTree = "<group>"; };
 		B0E8B5501D8593D000622B1E /* post_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_normal@2x.png"; sourceTree = "<group>"; };
+		B0F91E601DC36CEC0076A1F1 /* MyInfoHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoHeadView.swift; sourceTree = "<group>"; };
+		B0F91E621DC36CFF0076A1F1 /* MyInfoHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInfoHeadView.xib; sourceTree = "<group>"; };
 		B74D16501D87C9FF00664790 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		B74D16521D87CA6B00664790 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		B78CB7A01D8796E8009861DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -374,6 +378,15 @@
 			path = GYTabBarImage;
 			sourceTree = "<group>";
 		};
+		B0F91E5F1DC36CD70076A1F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0F91E601DC36CEC0076A1F1 /* MyInfoHeadView.swift */,
+				B0F91E621DC36CFF0076A1F1 /* MyInfoHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B78CB79D1D879697009861DC /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +432,7 @@
 		B7CE5E971D928697004A6180 /* MyInfo */ = {
 			isa = PBXGroup;
 			children = (
+				B0F91E5F1DC36CD70076A1F1 /* View */,
 				B7F423931DC1EBCC00E2D4E1 /* myInfo.storyboard */,
 				B7CE5E981D928697004A6180 /* MyInfoViewController.swift */,
 				B07EB3301DBC4F5C002ABD64 /* MyInfoDemoViewController.swift */,
@@ -575,6 +589,7 @@
 				B0E8B5431D85936800622B1E /* account_normal@2x.png in Resources */,
 				B0E8B54B1D85939800622B1E /* message_normal@2x.png in Resources */,
 				B0E8B5451D85937500622B1E /* home_highlight@2x.png in Resources */,
+				B0F91E631DC36CFF0076A1F1 /* MyInfoHeadView.xib in Resources */,
 				B0E8B54D1D8593B300622B1E /* mycity_highlight@2x.png in Resources */,
 				B0B51FF31D8528B400709A33 /* Assets.xcassets in Resources */,
 				B07EB3331DBC4F5C002ABD64 /* MyInfoDemoViewController.xib in Resources */,
@@ -656,6 +671,7 @@
 			files = (
 				B7F423891DC1E8E000E2D4E1 /* GYNetWorkManager.swift in Sources */,
 				B7F4238A1DC1E8E000E2D4E1 /* GYParameterEncoding.swift in Sources */,
+				B0F91E611DC36CEC0076A1F1 /* MyInfoHeadView.swift in Sources */,
 				B0B51FEE1D8528B400709A33 /* ViewController.m in Sources */,
 				B7CE5EA41D928AED004A6180 /* GYSwiftConst.swift in Sources */,
 				B7CE5E9A1D928697004A6180 /* CollectooksViewController.swift in Sources */,
