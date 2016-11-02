@@ -8,6 +8,8 @@
 
 import UIKit
 
+//今天发烧了
+//不开心
 class GYTabBarTitleView: UIView {
 
     var leftBtn:UIButton?
