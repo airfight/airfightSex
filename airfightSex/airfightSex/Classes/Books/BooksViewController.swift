@@ -11,8 +11,23 @@ import YTKNetwork
 
 class BooksViewController: GYBaseVC {
 
+    
+    //MARK: - Attributes
+    var tableView:UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.blue
+        
+        tableView = UITableView()
+        tableView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        tableView.backgroundColor = UIColor.blue
+ 
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
+        view.addSubview(tableView)
+
         
         
         
